@@ -1,0 +1,77 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 24px;
+  font-family: 'Segoe UI', sans-serif;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  height: 65px;
+  width: auto;
+}
+
+.sidebar-search {
+  position: relative;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 6px 10px;
+  background: white;
+}
+
+.search-icon {
+  font-size: 16px;
+  color: #666;
+  margin-right: 8px;  
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 14px;
+}
+
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.welcome-text {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.notification-icon {
+  position: relative;
+  cursor: pointer;
+}
+
+.notification-dot {
+  position: absolute;
+  top: -3px;
+  right: -3px;
+  background: red;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.logout-icon {
+  cursor: pointer;
+}

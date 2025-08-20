@@ -1,0 +1,157 @@
+.sales-container {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f2f6f9;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.sales-main {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.sales-left, .sales-right {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  flex: 1;
+  min-width: 320px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #444;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.add-btn {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%;
+  transition: background 0.2s ease;
+}
+
+.add-btn:hover {
+  background-color: #125ea6;
+}
+
+.sales-right h3 {
+  margin-top: 0;
+  font-size: 18px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.cart-table th,
+.cart-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.cart-table th {
+  background-color: #e3f2fd;
+  color: #333;
+}
+
+.remove-btn {
+  background-color: #e53935;
+  color: white;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.remove-btn:hover {
+  background-color: #c62828;
+}
+
+.process-btn, .clear-btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.process-btn {
+  background-color: #2e7d32;
+  color: white;
+}
+
+.process-btn:hover {
+  background-color: #1b5e20;
+}
+
+.clear-btn {
+  background-color: #9e9e9e;
+  color: white;
+}
+
+.clear-btn:hover {
+  background-color: #757575;
+}
+
+@media (max-width: 768px) {
+  .sales-main {
+    flex-direction: column;
+  }
+}
+.admin-login-btn-container {
+  margin-top: 20px;
+}
+
+.admin-login-btn {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.admin-login-btn:hover {
+  background-color: #0056b3;
+}

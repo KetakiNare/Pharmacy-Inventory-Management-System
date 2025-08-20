@@ -1,0 +1,47 @@
+.home-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.home-logo {
+  max-width: 200px;
+  margin-bottom: 40px;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.home-btn {
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+  width: 200px;  
+   height: 20px; 
+  line-height:20px; 
+  text-align: center;
+}
+
+.login-btn {
+  background-color: #28c76f;
+  color: white;
+}
+
+.signup-btn {
+  background-color: #007bff;
+  color: white;
+  width: 220px; 
+}
+
+.home-btn:hover {
+  opacity: 0.9;
+}

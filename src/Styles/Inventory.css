@@ -1,0 +1,110 @@
+.inventory {
+  padding: 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+.inventory-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.add-btn {
+  padding: 10px 16px;
+  background-color: #f87171;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.add-btn:hover {
+  background-color: #facc15;
+}
+
+.add-btn:active {
+  background-color: #10b981; 
+}
+
+
+.medicine-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.medicine-table th, .medicine-table td {
+  padding: 12px 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.medicine-table th {
+  background-color: #f2f2f2;
+}
+
+.edit-btn, .delete-btn {
+  padding: 6px 10px;
+  margin: 0 4px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-btn {
+  background-color: #ffc107;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+.expiring td {
+  color: red;
+  font-weight: bold;
+}
+
+.low-stock td {
+  color: orange;
+  font-weight: bold;
+}
+.legend {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  background: #fff;
+  padding: 8px 14px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  font-size: 13px;
+  margin-left: auto;
+}
+
+
+.legend-box {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 6px;
+  border-radius: 2px;
+}
+
+.expiring-box {
+  background-color: red;
+}
+
+.lowstock-box {
+  background-color: orange;
+}

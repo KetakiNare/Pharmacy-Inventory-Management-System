@@ -1,0 +1,28 @@
+.notifications-page {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.alert-box {
+  background-color: #fff;
+  padding: 20px;
+  margin: 15px 0;
+  border-left: 5px solid #28c76f;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 6px;
+}
+
+.alert-box h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.alert-box ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.alert-box li {
+  margin-bottom: 6px;
+  font-size: 15px;
+  color: #444;
+}

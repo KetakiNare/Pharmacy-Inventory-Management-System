@@ -1,0 +1,100 @@
+.login-page {
+  display: flex;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #a1d5e2, #c4f0c5);
+}
+
+.left-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+.left-section img {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+.right-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 20px 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(8px);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-form h2 {
+  font-size: 22px;
+  margin-bottom: 6px;
+  color: black;
+}
+
+.login-form p {
+  font-size: 14px;
+  color: black;
+  margin-bottom: 12px;
+}
+
+.login-form input,
+.login-form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  color: black;
+  font-size: 16px;
+}
+
+.login-form input::placeholder,
+.login-form select {
+  color: black;
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-field span {
+  position: absolute;
+  right: 10px;
+  top: 35%;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #28c76f;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 14px;
+  color:black;
+}
+
+.signup-link a {
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+}
