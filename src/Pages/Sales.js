@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom'; 
-import axios from 'axios';
 import '../Styles/Sales.css';
 
 function Sales() {
@@ -17,7 +16,6 @@ const [saleDate, setSaleDate] = useState(() => {
   });
 
   const [paymentMode, setPaymentMode] = useState('Cash');
-  const [billItems, setBillItems] = useState([]);
   const navigate = useNavigate(); 
 
   
